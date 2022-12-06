@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="Imagenes/Logo.png">
+    <link rel="stylesheet" href="Estilos/normalize.css">
+    <link rel="stylesheet" href="Estilos/destok.css">
+    <link rel="stylesheet" href="Estilos/movil.css">
+    <link rel="stylesheet" href="Estilos/fancybox/jquery.fancybox.css">
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="Scrips/responsiveslides.min.js"></script>
+    <script src="Estilos/fancybox/jquery.fancybox.js"></script>
+    <title>Galeria</title>
+
+</head>
+<body>
+    
+
+<!--Header-->
+<header class="cont_general">
+    <div class="cont_iconos ancho">
+    <div class="redes ancho">
+        <p>Call Us (123) 456-7890 or Mail Us: contacts@demolink.com</p>
+    </div>
+        <div class="iconos ancho">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+    </div>
+    </header>
+    <div style="height: 50px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 271.49,-49.99 500.00,49.99 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #FFAC35;"></path></svg></div>
+    <nav class="navegacion ancho">
+        <a href="index.html" class="btn_ancla">
+        <figure>
+            <img src="Imagenes/Logo.png" alt=""> <p>Businezz</p>
+        </figure>
+    </a>
+        <a href="#" id="menu" class="menu">
+        <i  class="fa-solid fa-bars"></i>
+        </a>
+        <ul id="contenedormenu">
+            <li><a href="index.html" class="btn_ancla">INICIO</a></li>
+            <li><a href="galeria.html" class="btn_ancla">GALERIA</a></li>
+            <li><a href="#" class="btn_ancla" id="abrir">CONTACTO</a></li>
+            <li><a href="mas.html" class="btn_ancla">MAS</a></li>
+        </ul>
+    </nav>
+<!--Fin Header-->
+<!--Slider de Fotos con Flecha-->
+<body>
+    <div class="callbacks_container">
+        
+        <ul class="rslides" id="slider4">
+        <li>
+          <img src="Imagenes/ca1.jpg" alt="">
+          <p class="caption">Siempre a la vanguradia </p>
+        </li>
+        <li>
+          <img src="Imagenes/ca2.jpg" alt="">
+          <p class="caption">Constante capacitacion para un mejor rendimiento</p>
+        </li>
+        <li>
+          <img src="Imagenes/ca3.jpg" alt="">
+          <p class="caption">Ambiente de Desarrollo Comodo</p>
+        </li>
+      </ul>
+    </div>
+  <!--Modal-->
+<section id="modal" class="cont-modal">
+    <article class="modal">
+        <i id="cerrar" class="fas fa-times-circle"></i>
+        <h2>Contactanos</h2>
+        <br>
+        <p>Estas a un mensaje de iniciar tu negocio</p><br>
+        <form action="datos.html" method="post"></form>
+        <input id="nombre" class="normal" type="text" placeholder=" Name" required><br>
+        <input id="telefono" class="normal "type="text" placeholder="Telefono" required><br>
+        <input id="mail" class="normal "type="text" placeholder="E-mail" required><br>
+        <input id="comentarios" class="correo" type="text" placeholder="Message" required><br>
+        <input class="enviar" type="submit" value="Sudmit"></input>
+        <input type="hidden" value="index.html">
+    </article>
+</section>
+<!--Fin Modal-->
+<!--Video Responsive-->
+    <h2 class="titulovideo">Nuestro Eventos</h2>
+    <section class="video">
+        
+        <iframe  src="https://www.youtube.com/embed/9sCVcWD1Svs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    </section>
+<!--Video Responsive-->
+<!--Galeria de Fotos-->
+<h2 class="galeria">Nuestra Galeria</h2>
+<section class="ancho contenedor">
+<a href="Imagenes/foto1.jpg" class="fancybox" title="Congreso Internacional de Guanajuato" rel="gallery1">
+    <img src="Imagenes/foto1.jpg" alt="">
+<div class="modalgale">
+    <i class="far fa-play-circle"></i>
+</div>
+</a>
+<a href="Imagenes/foto2.jpg" class="fancybox" title="Junta de enlace en materia financieras" rel="gallery1">
+    <img src="Imagenes/foto2.jpg" alt="">
+<div class="modalgale">
+        <i class="far fa-play-circle"></i>
+</div>
+</a>
+<a href="Imagenes/foto3.jpg" class="fancybox" title="Junta financiera de Nuevo leon" rel="gallery1">
+    <img src="Imagenes/foto3.jpg" alt="">
+    <div class="modalgale">
+        <i class="far fa-play-circle"></i>
+    </div>
+</a>
+<a href="Imagenes/foto4.jpg" class="fancybox" title="Conferencia Richar Perez" rel="gallery1">
+    <img src="Imagenes/foto4.jpg" alt="">
+    <div class="modalgale">
+        <i class="far fa-play-circle"></i>
+    </div>
+</a>
+<a href="Imagenes/foto5.jpg" class="fancybox" title="Reunion Fianciera de la sociedad Internacional de Europa" rel="gallery1">
+        <img src="Imagenes/foto5.jpg" alt="">
+        <div class="modalgale">
+            <i class="far fa-play-circle"></i>
+        </div>
+    </a>
+<a href="Imagenes/foto6.jpg" class="fancybox"       title="Reunion global de Financieros en Matia de las Nuevas Tecnologias" rel="gallery1">
+        <img src="Imagenes/foto6.jpg" alt="">
+        <div class="modalgale">
+            <i class="far fa-play-circle"></i>
+        </div>
+    </a>
+
+</section>
+<!--Fin Galeria-->
+  <!--Footer-->
+  <div style="height: 50px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.21,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: black;"></path></svg></div>
+<!--boton-->
+<div id="button-up">
+    <i class="fas fa-sort-up"></i>  
+    </div>
+<!-- fin boton-->
+
+  <footer>
+  <div class="fot ancho">
+      <figure>
+          <img src="Imagenes/Logo.png" alt=""> <p>Businezz</p>
+      </figure>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+  </div>
+  </footer>
+  <!--Fin Footer-->
+<!--Fin Slider de Fotos con Flecha-->
+    <script src="Scrips/Scrip.js"></script>
+</body>
+</html>

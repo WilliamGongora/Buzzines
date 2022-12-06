@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros y Mas</title>
+    <link rel="icon" type="img/png" href="Imagenes/Logo.png">
+    <link rel="stylesheet" href="Estilos/normalize.css">
+    <link rel="stylesheet" href="Estilos/destok.css">
+    <link rel="stylesheet" href="Estilos/movil.css">
+    <link rel="stylesheet" href="Estilos/tinycarousel.css">
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#slider1').tinycarousel();
+		});
+	</script>
+</head>
+<body>
+
+<!--Header-->
+<header class="cont_general">
+    <div class="cont_iconos ancho">
+    <div class="redes ancho">
+        <p>Call Us (123) 456-7890 or Mail Us: contacts@demolink.com</p>
+    </div>
+        <div class="iconos ancho">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+    </div>
+    </header>
+    <div style="height: 50px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 271.49,-49.99 500.00,49.99 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #FFAC35;"></path></svg></div>
+    <nav class="navegacion ancho">
+        <a href="index.html" class="btn_ancla">
+        <figure>
+            <img src="Imagenes/Logo.png" alt=""> <p>Businezz</p>
+        </figure>
+    </a>
+        <a href="#" id="menu" class="menu">
+        <i  class="fa-solid fa-bars"></i>
+        </a>
+        <ul id="contenedormenu">
+            <li><a href="index.html" class="btn_ancla">INICIO</a></li>
+            <li><a href="galeria.html" class="btn_ancla">GALERIA</a></li>
+            <li><a href="#" class="btn_ancla" id="abrir">CONTACTO</a></li>
+            <li><a href="mas.html" class="btn_ancla">MAS</a></li>
+        </ul>
+    </nav>
+<!--Fin Header-->
+    <!--Principal-->
+    <section class="Fondomas">
+        <article class="Promo">
+            
+            <h2><span style="font-family: 'Roboto', sans-serif;">Cada 1ra Consulta </span><br>  ¡Con Nosotros es <span style="color:  #FFAC35;">GRATIS!</span> </h2>
+            <a href="#">Contactar</a>
+
+        </article>
+    </section>
+    <!--Fin Secundario-->
+
+    <section>
+
+    </section>
+ <!--Modal-->
+<section id="modal" class="cont-modal">
+    <article class="modal">
+        <i id="cerrar" class="fas fa-times-circle"></i>
+        <h2>Contactanos</h2>
+        <br>
+        <p>Estas a un mensaje de iniciar tu negocio</p><br>
+        <form action="datos.html" method="post"></form>
+        <input id="nombre" class="normal" type="text" placeholder=" Name" required><br>
+        <input id="telefono" class="normal "type="text" placeholder="Telefono" required><br>
+        <input id="mail" class="normal "type="text" placeholder="E-mail" required><br>
+        <input id="comentarios" class="correo" type="text" placeholder="Message" required><br>
+        <input class="enviar" type="submit" value="Sudmit"></input>
+        <input type="hidden" value="index.html">
+    </article>
+</section>
+<!--Fin Modal-->
+<!--Patrocinadores-->
+<!--Fin Patrocinadores-->
+<!--Carrucel-->
+<div id="slider1">
+    <div class="contenedor_flechas borde">
+        <div class="ifo">
+        <h1>Nuestro equipo de Trabajo</h1>
+       </div></div>
+    <div class="viewport">
+        <ul class="overview">
+            <li>
+                <img src="Imagenes/Empleado1.jpg" />
+                <h2>Jhon Smit</h2>
+                <p>General Manager</p>
+                <div class="redesemp">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                </div>
+            </li>
+            <li>
+                <img src="Imagenes/Empleado2.jpg" />
+                <h2>Ben Wilson</h2>
+                <p>Field Technician</p>
+                <div class="redesemp">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    </div>
+            </li>
+            <li>
+                <img src="Imagenes/Empleado3.jpg" />
+                <h2>Ben Fitzgerald</h2>
+                <p>Customer Service Manager</p>
+                <div class="redesemp">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    </div>
+            </li>
+            <li>
+                <img src="Imagenes/Empleado4.jpg" />
+                <h2>Ben Wilson</h2>
+                <p>Repair Technician</p>
+                <div class="redesemp">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    </div>
+            </li>
+        </ul>
+    </div>
+    <div class="ico">
+        <a class="buttons prev" href="#"><i class="fa-solid fa-angle-left"></i></a>
+        <a class="buttons next" href="#"><i class="fa-solid fa-angle-right"></i></a>
+        </div>
+</div>
+</div>
+<div style="height: 50px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.21,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: black;"></path></svg></div>
+<!--Fin Carrucel-->
+<!--boton-->
+<div id="button-up">
+    <i class="fas fa-sort-up"></i>  
+    </div>
+<!-- fin boton-->
+<footer>
+    <div class="fot ancho">
+        <figure>
+            <img src="Imagenes/Logo.png" alt=""> <p>Businezz</p>
+        </figure>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+    </footer>
+    <script src="Scrips/Scrip.js"></script>
+    <script src="Scrips/jquery.tinycarousel.js"></script>
+</body>
+</html>
